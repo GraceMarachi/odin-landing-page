@@ -1,6 +1,32 @@
+/* Universal styles*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
+
+/*Header*/
+header {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+    font-size: 24px;
+    color: #F9FAF8;
+    padding: 16px 8px;
+}
+
+ul {
+    font-size: 18px;
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+
+
