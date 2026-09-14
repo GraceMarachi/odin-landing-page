@@ -148,4 +148,42 @@ a {
     text-align: right;
 }
 
+/*CTA section*/
+
+.cta {
+    margin: 48px auto;
+    width: 700px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    padding: 24px 0;
+}
+
+.cta-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-heading {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.cta-body .subtext {
+    font-size: 12px;
+}
+
+.cta-btn {
+    background-color: #3882F6;
+    color: #fff;
+    padding: 8px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 2px solid #fff;
+}
+
 
